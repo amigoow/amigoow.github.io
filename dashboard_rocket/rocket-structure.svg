@@ -1,0 +1,201 @@
+<!-- LOVELY SVG -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500" height="650">
+	<!-- VARS -->
+	<defs>
+		<clipPath id="rocket-wrapper">
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M211.3,20.5c0,0,1.9-1.8,8.4,9.1s35.9,66.2,36.6,70.1
+			c0.7,3.9-6.1,3-6.1,3h-81.5c0,0-3.2-0.5-1.5-4.6c1.7-4.1,22.5-49.5,35-68.6C202.1,29.7,207.8,19.3,211.3,20.5z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M164,106.6h93.7c0,0,1.8-0.2,3,3c1.2,3.2,15.2,38.1,15.2,38.1
+				s2,5.3-1.5,5.3s-127.2,0-127.2,0s-2.5-0.6,0-6.9l14.5-36.6C161.8,109.7,162.8,106.6,164,106.6z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M145,156.9h132.6c0,0,0.2-2.6,3,5.3c2.8,7.9,10.7,38.1,10.7,38.1
+				s1.7,4-4.6,3.8c-6.3-0.2-153.1,0-153.1,0s-2.8,0.7-1.5-6.1c1.2-6.8,9.9-36.6,9.9-36.6S142.5,157.2,145,156.9z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M131.3,207.9h160c0,0,1.9-2.3,3.8,6.1c1.9,8.4,6.9,35.8,6.9,35.8
+				s2,4.7-5.3,4.6c-7.4-0.1-173.7,0-173.7,0s-2.2,0.7-1.5-5.3c0.7-6,6.9-36.6,6.9-36.6S128.9,206.9,131.3,207.9z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M121.4,258.2h179c0,0,2.5-0.2,3,4.6c0.5,4.8,3,40.4,3,40.4
+				s-0.2,2.2-8.4,2.3s-179,0-179,0s-2,0.5-2.3-3.8c-0.2-4.4,2.3-38.9,2.3-38.9S119.4,258.2,121.4,258.2z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M155.7,412.8c0,0-15-12.5-20.6-22.1c-5.6-9.6-12.5-24.4-13-27.4
+				c-0.4-3-1-4.8,1.5-4.6h174.5c0,0,3.9-0.3,2.3,4.6c-1.6,4.8-9.1,21.8-10.7,24.4c-1.6,2.5-18.3,23.4-21.3,24.4
+				C268.4,412.1,219,405.3,155.7,412.8z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M113,268.9c0,0-2.8-1-4.6,0.8c-1.8,1.8-15.4,17.5-19.8,24.4
+				c-4.4,6.9-17.6,30.2-20.6,40.4c0,0-10.3,32-11.4,38.1c-1.2,6.1-4.8,24.8-5.3,39.6c-0.6,14.8-0.8,26.8-0.8,28.2
+				c0,1.4,0.5,4.4,5.3,2.3s47.7-24.1,86.8-25.9c0,0,8.4-1.4,1.5-8.4s-10.3-13.5-13.7-19c0,0-14.6-19.1-16.8-56.4
+				c0,0-2.2-22.9-0.8-38.9c1.5-15.9,2.2-21.9,2.3-22.1C115.4,271.7,115.1,269.3,113,268.9z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M113,268.9c0,0-2.8-1-4.6,0.8c-1.8,1.8-15.4,17.5-19.8,24.4
+				c-4.4,6.9-17.6,30.2-20.6,40.4c0,0-10.3,32-11.4,38.1c-1.2,6.1-4.8,24.8-5.3,39.6c-0.6,14.8-0.8,26.8-0.8,28.2
+				c0,1.4,0.5,4.4,5.3,2.3s47.7-24.1,86.8-25.9c0,0,8.4-1.4,1.5-8.4s-10.3-13.5-13.7-19c0,0-14.6-19.1-16.8-56.4
+				c0,0-2.2-22.9-0.8-38.9c1.5-15.9,2.2-21.9,2.3-22.1C115.4,271.7,115.1,269.3,113,268.9z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M309.3,267.6c0,0,2.8-1,4.6,0.8c1.8,1.8,15.4,17.5,19.9,24.3
+				c4.5,6.9,17.6,30.2,20.6,40.3c0,0,10.3,32,11.5,38c1.2,6.1,4.8,24.8,5.4,39.6c0.6,14.8,0.8,26.8,0.8,28.1c0,1.4-0.5,4.4-5.4,2.3
+				c-4.9-2.1-47.9-24-87.1-25.9c0,0-8.5-1.4-1.5-8.4s10.3-13.5,13.8-19c0,0,14.6-19.1,16.8-56.3c0,0,2.3-22.9,0.8-38.8
+				c-1.5-15.9-2.2-21.9-2.3-22.1C306.9,270.5,307.3,268,309.3,267.6z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M118.3,308.5h185.9c0,0,2.1-0.4,2.3,3.8
+				c0.2,4.2-3.4,42.1-3.8,41.9s-2,1.7-5.3,1.5c-3.3-0.2-174.5,0-174.5,0s-3.2-0.1-3.8-5.3s-3.1-35.8-3-38.1S116.8,308.4,118.3,308.5z"
+				/>
+		</clipPath>
+	</defs><!-- VARS -->
+	
+
+	<!-- SMOKE -->
+	<g id="Smoke">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M497.7,353.4l2.3,2.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M183.9,399.9c0,0-2.2,94.3-44.2,128"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M193,415.9l-3.8,38.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M188.4,465.4"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M183.1,489.8l-8.4,22.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M202.1,448.7l-5.3,57.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M233.4,399.1c0,0-4.4,119.4,62.5,136.4c0,0-24.1-60,30.2-76c7.4-2.2,17.1-1.3,27.7-1.7c-10.9-26,28.4-87,77.5-45.2
+			c5,4.3,5.6,8.1,10.9,14.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M223.5,409v17.5"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="M225,438
+			l3,27.4"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M233.4,489.8l3,13"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M218.1,505l2.3,13.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M215.1,455.5l1.5,35.8"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M356,459.3l7.6,13"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M365.9,476.1l3.8,2.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M373.5,482.2l4.6,1.5"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M427.6,507.3c-21.3-33.1,23.6-65.5,50.8-36.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M481,477.6c0,0,2.9-1.3,2.3,8.4"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M484,491.3l-0.8,5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M415.4,399.9c0,0,0.4-51,51-29.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M467.2,380.1c0,0-3.1-29.5,26.7-28.2"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M484,387.7c0,0-6.4-1.3-11.8,1.6c-4.5,2.4-8.2,7.7-7.2,19"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M469.5,385.4l3,4.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M327.1,569.8c0,0,4.3-8.6,14.1-11.2c12.6-3.3,31.3,1.6,30.8,31"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M365.2,562.9c0,0,1-21.2,12.5-30.5c11.7-9.5,36.1-13.7,52.9,0.6c6.4,5.4,7.1,15.5,12.3,26.1"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M442.9,564.4l-2.3,6.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M439.1,578.9l-3.8,5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M241,536.3c0,0,6.9-4.2,19.8,0.8"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M234.1,538.5l-3,1.5"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M228.8,540.8c0,0-31.5,22.6-0.8,55.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M133.6,567.5c0,0,49.5-16.5,56.4,36.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M189.9,607.1l-0.8,5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M188.4,590.3c0,0,10.6-13.7,28.9-5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M-0.5,273.4c0,0,43.2-0.5,43.4,47.2"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M3.3,345.8l4.6-6.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M11.7,334.4c0,0,7.9-7.6,19.7-10.8c18-4.9,43.9-2.4,56,29.2c2.5,6.6,1.5,14.6,2.8,24.2"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M90.2,382.4l-3,4.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M86.3,389.2l-9.1,13c0,0,46.7,6.5,38.8,47.8c-1.3,6.7-7,12.8-11.4,21.6l-17.5,2.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M104.6,473c0,0,29.8,11.6,22.1,41.1"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M148.8,518c0,0-11.7-11.8-42.7,5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M102.3,526.4l-3,3.8"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M96.2,534.7c0,0-5.8,5-6.9,13.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M77.2,479.1l3.8-2.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M-0.5,389.2c0,0,22.7,0.8,26.7,24.4"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M24.6,424.3l-2.3,5.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="M1.8,505
+			c0,0-4.5-8.9-2.1-18.3c3.4-13.1,16-27.3,35.1-19.7c4.7,1.9,7.9,8.1,14.2,12.9"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M5.6,510.4l3.8,2.3"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M-0.5,543.9c0,0,21.2-7.1,35,16.8"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M36.1,563.7c0,0,2.7,4,1.5,13.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="M37.6,582
+			l-0.8,4.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#E8194D" stroke-width="3" stroke-miterlimit="10" d="
+			M335.5,463.1"/>
+	</g><!-- SMOKE -->
+
+	<!-- FLAME -->
+	<g id="Flame">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#EF487F" d="M166.3,410.8c0,0,30.1-8.4,86.1-1.5c0,0,16.7,60.8-44.9,109.7
+			C207.5,519,148.7,469.2,166.3,410.8z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#E8194D" d="M181.6,408.6c0,0-25,52.3,26.7,94.5c0,0,57.4-46.8,24.4-96
+			C232.6,407,185.3,404.7,181.6,408.6z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFCD2A" d="M203.7,407.8c0,0-6.7,1.9-11.8,8.1c-9.3,11.3-15.8,34.5,16.4,69.6
+			c0,0,25-26.2,23.6-44.9s-7.2-26.7-16-32C215.9,408.6,211.5,406.7,203.7,407.8z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FAED99" d="M190.7,436.7c0,0,3.7-22.4,17.5-19.8c0,0,11.7-3.7,16.8,18.3
+			c0,0,2.2-24.1-16.8-25.1C208.2,410.1,190.7,408.3,190.7,436.7z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M230.8,440.6"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M278.9,457.7"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M230.9,443.6"/>
+	</g><!-- FLAME -->
+
+	<!-- ROCKET -->
+	<g id="Rocket">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M211.3,20.5c0,0,1.9-1.8,8.4,9.1s35.9,66.2,36.6,70.1
+			c0.7,3.9-6.1,3-6.1,3h-81.5c0,0-3.2-0.5-1.5-4.6c1.7-4.1,22.5-49.5,35-68.6C202.1,29.7,207.8,19.3,211.3,20.5z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M164,106.6h93.7c0,0,1.8-0.2,3,3c1.2,3.2,15.2,38.1,15.2,38.1
+			s2,5.3-1.5,5.3s-127.2,0-127.2,0s-2.5-0.6,0-6.9l14.5-36.6C161.8,109.7,162.8,106.6,164,106.6z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M145,156.9h132.6c0,0,0.2-2.6,3,5.3c2.8,7.9,10.7,38.1,10.7,38.1
+			s1.7,4-4.6,3.8c-6.3-0.2-153.1,0-153.1,0s-2.8,0.7-1.5-6.1c1.2-6.8,9.9-36.6,9.9-36.6S142.5,157.2,145,156.9z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M131.3,207.9h160c0,0,1.9-2.3,3.8,6.1c1.9,8.4,6.9,35.8,6.9,35.8
+			s2,4.7-5.3,4.6c-7.4-0.1-173.7,0-173.7,0s-2.2,0.7-1.5-5.3c0.7-6,6.9-36.6,6.9-36.6S128.9,206.9,131.3,207.9z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M121.4,258.2h179c0,0,2.5-0.2,3,4.6c0.5,4.8,3,40.4,3,40.4
+			s-0.2,2.2-8.4,2.3s-179,0-179,0s-2,0.5-2.3-3.8c-0.2-4.4,2.3-38.9,2.3-38.9S119.4,258.2,121.4,258.2z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M155.7,412.8c0,0-15-12.5-20.6-22.1c-5.6-9.6-12.5-24.4-13-27.4
+			c-0.4-3-1-4.8,1.5-4.6h174.5c0,0,3.9-0.3,2.3,4.6c-1.6,4.8-9.1,21.8-10.7,24.4c-1.6,2.5-18.3,23.4-21.3,24.4
+			C268.4,412.1,219,405.3,155.7,412.8z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M113,268.9c0,0-2.8-1-4.6,0.8c-1.8,1.8-15.4,17.5-19.8,24.4
+			c-4.4,6.9-17.6,30.2-20.6,40.4c0,0-10.3,32-11.4,38.1c-1.2,6.1-4.8,24.8-5.3,39.6c-0.6,14.8-0.8,26.8-0.8,28.2
+			c0,1.4,0.5,4.4,5.3,2.3s47.7-24.1,86.8-25.9c0,0,8.4-1.4,1.5-8.4s-10.3-13.5-13.7-19c0,0-14.6-19.1-16.8-56.4
+			c0,0-2.2-22.9-0.8-38.9c1.5-15.9,2.2-21.9,2.3-22.1C115.4,271.7,115.1,269.3,113,268.9z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M113,268.9c0,0-2.8-1-4.6,0.8c-1.8,1.8-15.4,17.5-19.8,24.4
+			c-4.4,6.9-17.6,30.2-20.6,40.4c0,0-10.3,32-11.4,38.1c-1.2,6.1-4.8,24.8-5.3,39.6c-0.6,14.8-0.8,26.8-0.8,28.2
+			c0,1.4,0.5,4.4,5.3,2.3s47.7-24.1,86.8-25.9c0,0,8.4-1.4,1.5-8.4s-10.3-13.5-13.7-19c0,0-14.6-19.1-16.8-56.4
+			c0,0-2.2-22.9-0.8-38.9c1.5-15.9,2.2-21.9,2.3-22.1C115.4,271.7,115.1,269.3,113,268.9z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#2E4050" d="M309.3,267.6c0,0,2.8-1,4.6,0.8c1.8,1.8,15.4,17.5,19.9,24.3
+			c4.5,6.9,17.6,30.2,20.6,40.3c0,0,10.3,32,11.5,38c1.2,6.1,4.8,24.8,5.4,39.6c0.6,14.8,0.8,26.8,0.8,28.1c0,1.4-0.5,4.4-5.4,2.3
+			c-4.9-2.1-47.9-24-87.1-25.9c0,0-8.5-1.4-1.5-8.4s10.3-13.5,13.8-19c0,0,14.6-19.1,16.8-56.3c0,0,2.3-22.9,0.8-38.8
+			c-1.5-15.9-2.2-21.9-2.3-22.1C306.9,270.5,307.3,268,309.3,267.6z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#C0C5CA" d="M118.3,308.5h185.9c0,0,2.1-0.4,2.3,3.8
+			c0.2,4.2-3.4,42.1-3.8,41.9s-2,1.7-5.3,1.5c-3.3-0.2-174.5,0-174.5,0s-3.2-0.1-3.8-5.3s-3.1-35.8-3-38.1S116.8,308.4,118.3,308.5z"
+			/>
+	</g><!-- ROCKET -->
+	
+	<!-- COUNTER -->
+	<g id="Counter">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#2C9AD6" d="M327.1,381.6h153.1v35.8H327.8l-0.8-9.1l-15.2-9.1l15.2-8.4V381.6
+			z"/>
+	</g><!-- COUNTER -->
+	<!-- FILLER -->
+	<g id="rocket-filler">
+		<rect class="clipping-rect" x="20.681" y="640" fill-rule="evenodd" clip-rule="evenodd" fill="#1F9BDE"  stroke-miterlimit="10" width="360.87" height="601.449" clip-path="url('#rocket-wrapper')"/>
+		<text id="counter-value" x="400" y="550">0</text>
+	</g><!-- FILLER -->
+
+</svg><!-- LOVELY SVG -->
