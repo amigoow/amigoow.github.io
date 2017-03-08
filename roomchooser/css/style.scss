@@ -1,0 +1,21 @@
+//Reset
+@import "reset";
+
+//Libraries
+@import "bourbon/_bourbon.scss";
+
+//Definings
+@import "variables";
+
+//Globals
+@import "globals";
+
+//Modals
+@import "modals";
+
+//Pages
+@import "pages/_home.scss";
+@import "pages/_hotel.scss";
+@import "pages/_search_results.scss";
+@import "pages/_contact.scss";
+

@@ -1,0 +1,186 @@
+.modal-backdrop {
+   background-color: $modal-backdrop;
+}
+.modal-backdrop.in{
+	opacity: 0.8;
+}
+.modal-roomchooser{
+
+	
+	.modal-content{
+		@include border-radius(0);
+		background-color: $bg-primary;
+		box-shadow: 1px 1px 4px #eee;
+
+		.modal-header, .modal-footer{
+			border: none;
+		}
+		.modal-body{
+			text-align: center;
+			padding: 50px;
+			h1{
+				font-weight: $font-semi-bold;
+				font-size: 20pt;
+				margin: 40px 0;
+			}
+			p{
+				text-align: center;
+				font-weight: $font-light;
+				font-size: 13pt;
+				line-height: 1.5em;
+				color: $font-secondary-color;
+			}
+			.subscribe-button{
+				position: relative;
+				.subscribe-roomchooser{
+					border: none;
+					box-shadow: 2px 4px 8px #ccc;
+					border-radius: 30px;
+					margin: 90px auto;
+					height: 60px;
+					padding: 0 30px;
+					font-size: 18px;
+					width: 60%;
+					
+					
+				}
+				.send-icon{
+					@extend .bg-default;
+					height: 59px;
+				    width: 59px;
+				    content: '';
+				    position: absolute;
+				    right: 19%;
+				    top: 0;
+				    background-color: #95a9c2;
+				    border-radius: 50%;
+				    background-image: url("../img/modal-send-btn.png");
+				}	
+			}
+			
+		}
+	}	
+}
+
+.modal-signin.modal-roomchooser, .modal-signup.modal-roomchooser, .modal-payment.modal-roomchooser{
+	.modal-content{
+		.modal-body{
+			padding: 0;
+
+			h1{
+				margin: 20px 0;
+			}
+			.form-group{
+				text-align: left;
+				margin-bottom: 25px;
+
+				label{
+					text-transform: uppercase;
+					color: $font-secondary-color;
+					font-weight: $font-light;
+					font-size: 12px;
+				}
+			}
+			.text-fields{
+				margin-top: 60px; margin-bottom: 20px;
+			}
+			.no_acc_signup{
+				font-size: 14px;
+				margin: 0 0 40px;
+				font-weight: 400;
+				color: $font-primary-color;
+				a{
+					color: $price-color;
+				}
+			}
+		}
+
+	}
+	
+}
+.modal-booking{
+	.modal-lg{
+		width: 95%;
+	}
+	.modal-content{
+		height: 570px;
+		.modal-body{
+			padding:0;
+			overflow:hidden;
+			.booking-info{
+				z-index:1;
+				text-align: left;
+				padding: 60px;
+				p{
+					text-align: left;
+				}
+				h2{
+					margin: 15px 0 8px 0;
+					font-size: 20px;
+					font-weight: 200;
+				}
+				h3{
+					margin: 0 0 8px 0;
+					font-size: 16px;
+					font-weight: 200;	
+				}
+				.stars{
+					color: $font-secondary-color;
+					margin-bottom: 10px;
+				}
+				h2.price{
+					@extend h2;
+					color: $font-secondary-color;
+				}
+				.btn-roomchooser{
+					margin: 0 auto;
+					display: block;
+					width: 50%;
+					font-size: 15pt;
+				    font-weight: 100;
+				    box-shadow: 1px 5px 16px #ccc;
+				}
+				.dropdowns{
+					margin: 60px 0 60px;
+    				width: 550px;
+    				label{
+    					font-family: 'Lato', sans-serif;
+    					    font-weight: 400;
+    					    font-size: 10pt;
+    					    color: #9c9fa3;
+    					    margin: 0px 2px 5px;
+    				}
+    				div{
+    					padding-left: 0;
+    				}
+				}
+				.media{
+					.media-body{
+						p{
+							font-size: 10pt;
+							color: #font-primary-color;
+							font-weight: $font-semi-bold;
+							
+						}
+						
+					}
+				}
+			}
+			.side-img{
+				@extend .bg-default;
+				height: 568px;
+				width: 699px;
+				background-image: url('../img/booking_v0.png');
+			}
+			.slope{
+				position: absolute;
+			    width: 161px;
+			    background: #f4f5f9;
+			    height: 610px;
+			    left: -64px;
+			    transform: rotate(-11deg);
+			}
+		}
+	}
+	
+}
