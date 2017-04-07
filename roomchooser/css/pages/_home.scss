@@ -1,0 +1,139 @@
+@mixin home-heading{
+	
+	h1{
+		text-align: center;
+		font-weight: $font-light;
+		font-size: 24pt;
+	}
+	.micro-border{
+		border: 1.5px solid red;
+		width: 40px;
+		margin: 10px auto 20px;
+	}
+}
+body, html {
+    height: 100%;
+}
+
+.home{
+	padding: 0;
+	#masthead{
+	    
+
+	    height: 100%;
+	    height: 100vh;
+	    width: 100%;
+	    float: left;
+	    .opacity{
+	    	position: relative;
+	    	background-color: rgba(0, 0, 0, 0.75);
+	    	height: 100vh;
+	    }
+	    .hero-img{
+	    	@extend .bg-default;
+	    	position: absolute;
+	    	height: 100vh;
+	    	width: 100%;
+	    }
+	    .search-panel {
+
+	        position: relative;
+	        top: -40%;
+	        transform: translateY(-50%);
+	        font-family: 'Open Sans', sans-serif;
+	        font-style:italic;
+	        text-align:center;
+	        border-radius: 0;
+	        padding: 0 15%;
+	        :nth-child(-n+3){
+	        	padding: 16px;
+	        	font-style: normal;
+	        }
+
+	        :nth-child(4){
+	        	padding: 0;
+	        }
+	        
+        	.dropdown{
+        		background-color: #fff;
+        		height: 50px;	
+        		
+        	}
+        	.btn-search{
+        		@extend .btn-roomchooser;
+        		background-color: $btn-bg-color;
+        		height: 50px;
+        		margin: 0;
+        		padding: 0;
+        		font-style: normal;
+        		font-weight: 100;
+        		font-family: 'Roboto';
+        	}	
+	        
+	       	
+	        .by-destination{
+	        	margin-top: 50px;
+	        }
+	    }
+	    h1{
+	        margin:0;
+	        color:#fff;
+	    }
+	}
+	.as-seen-on{
+		margin: 80px auto;
+		h1{
+			padding: 10px;
+    		text-align: center;
+    		color: #626870;
+    		font-weight: $font-regular;
+		}
+		.media-icon{
+			text-align: center;
+		}
+	}	
+	.featured-rooms{
+		header{
+			@include home-heading;
+		}
+		section{
+			.main-rooms{
+				@extend .main-rooms;
+			}
+
+		}
+		footer.see-more{
+			text-align: center;
+			color: $price-color;
+			font-weight: 100;
+		}
+	}
+	.popular-destinations{
+		header{
+			@include home-heading;
+		}
+		section{
+			.main-destinations{
+				.destination-item{
+					@extend .room-item;
+				}
+				.content{
+					margin: 0 auto;
+					width: 100%;
+				}
+				.destination-img{
+					@extend .bg-default;
+					
+					height: 430px;
+					
+					max-width: 100%;
+
+					img{
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+}
