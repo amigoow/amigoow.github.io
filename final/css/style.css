@@ -1,0 +1,169 @@
+body{
+  font-family: 'Open Sans', serif;
+  width: 100%;
+  margin: 0%;    
+
+}
+
+.top-header-font{
+
+	padding: 20px 0 20px 0;
+	font-size: 16px;
+	background: #324057;
+    color:#cccfd3;
+    margin: 0;
+  
+
+}
+
+.hero-section{
+  background-image: url(../image/header-background.png); 
+  width: 100%;
+
+  -webkit-background-size: cover;
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-x;
+  height: 560px;
+  position: relative;
+
+}
+
+.header-text{
+  color: #fbe1e0;
+  position: absolute;
+  top: 22%;
+  left: 75px;
+  width: 50%;
+}
+
+.header-text h1{
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Arvo';
+}
+
+.header-text p.hero-text{
+  font-size: 18px;
+  font-weight: 200;
+  margin: 40px 0;
+}
+
+.zander-logo{
+  background: url(../image/zander-logo.png) no-repeat ; 
+  width: 65px;
+  height: 60px;
+}
+
+.main-logo {
+    background: url(../image/logo.png) no-repeat;
+    width: 115px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+
+.zander-fly{
+  background-image: url(../image/final-zander.png); 
+  width: 50%;
+  height: 100vh;
+  -webkit-background-size: contain;
+  background-position: center top;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 2%;
+  top: 12%;
+}
+
+.video-play{
+  background-image: url(../image/play.png) no-repeat ; 
+  width: 28px;
+  height: 28px;
+
+  -webkit-background-size: cover;
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+
+}
+
+.learn-more{
+  position: absolute;
+  color: #fbe1e0;
+      bottom: 5px;
+    left: 85px;
+  
+}
+.learn-more a{
+  text-decoration: none;
+  color: #fbe1e0;
+}
+
+
+
+.why{
+
+  font-size: 36px;
+
+}
+.pencil h1{
+  text-indent: -9999px;
+  background-image: url("../image/pencil.png");
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 80px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.ellipse h1{
+  text-indent: -9999px;
+  background-image: url("../image/ellipse.png");
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 80px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bicube h1{
+  text-indent: -9999px;
+  background-image: url("../image/bicube.png");
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 80px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.who{
+  font-size: 36px;
+  padding: 50px;
+
+}
+
+/* CSS Faisal */
+.zand-container{
+  padding: 0;
+}
+
+.v-center{
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+}

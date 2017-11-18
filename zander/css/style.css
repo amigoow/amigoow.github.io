@@ -1,0 +1,220 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-top{
+	
+	background: #002626;
+	color: #c7cbcb;
+
+}
+.header-top p{
+	padding-bottom:15px;
+	padding-top: 15px;
+	font-size: 14px; 
+	margin-bottom: 0;
+}
+.header-background{
+	background-image: url("../image/zander-background.png");
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+    height: 90vh;
+
+
+}
+.header-box{
+	margin-top: 80px;
+	background: rgba(21,111,113 , 0.75);
+	padding: 30px;
+	color: #fff;
+	
+	
+}
+
+.header-box .z-heading{
+	font-family: 'Avenir';
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 0;
+	
+}
+.header-box .z-text{
+	
+}
+
+
+
+.header-box .video {
+  position: relative;
+  
+  height: 144px;
+  background: #73AF96;
+  
+}
+
+.header-box .video img {
+  opacity: .65;
+}
+
+.header-box .play {
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  /*Centering*/
+  
+  margin: -15px 0 0 -20px;
+  left: 50%;
+  top: 50%;
+  display: block;
+  background: #FA614D;
+  transition: background-color 0.5s ease;
+  color: white;
+}
+
+.header-box .play:hover {
+  background: #C31A1F;
+}
+
+.header-box .icon-play {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.header-box .icon-play:before {
+  cursor: pointer;
+}
+
+.logos-wrapper .logo > img {
+    margin: 0 auto;
+    padding: 15px 0 0;
+}
+/*GENERIC STYLES*/
+.z-section{
+	padding: 20px 0 30px;
+}
+.z-heading{
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Avenir';
+	margin-top: 0;
+}
+.z-sub-heading{
+	margin-top: 0;
+	font-family: 'Avenir';
+}
+.z-text{
+	font-family: 'Avenir';
+	color: #353535;
+}
+.pl-0{
+	padding-left: 0;
+}
+.pr-0{
+	padding-right: 0;
+}
+/*WHY HERE*/
+
+.why-here.z-section{
+	background-color: #4b6186;
+	color: #fff;
+}
+.why-here.z-section{
+	
+}
+.why-here.z-section h2.why-heading {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #d9cc3c;
+    border-bottom: 1px solid #d9cc3c;
+    padding-bottom: 0;
+}
+
+.why-listen.z-section{
+	background-color: #eeeeee;
+	
+}
+.why-listen h2{
+	color: #ba2626;
+	font-weight: 700;
+}
+
+.z-story{
+	text-align: center;
+}
+.z-icon-wrapper{
+	margin: 20px 0;
+}
+.z-icon-wrapper .content-wrapper{
+	background: #FFF;
+	height: 160px;
+}
+.z-icon-wrapper .content-wrapper .z-icon-bg{
+	position: relative;
+    background: #eec9c9;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    top: 20px;
+}
+.z-icon-wrapper .content-wrapper .z-icon-bg .icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.z-icon-wrapper .z-caption{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.why-listen .video {
+  position: relative;
+  
+  background: #73AF96;
+  margin-bottom: 20px;
+  
+}
+
+.why-listen .video img {
+  opacity: .65;
+}
+
+.why-listen .play {
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  /*Centering*/
+  
+  margin: -15px 0 0 -20px;
+  left: 50%;
+  top: 50%;
+  display: block;
+  background: #FA614D;
+  transition: background-color 0.5s ease;
+  color: white;
+}
+
+.why-listen .play:hover {
+  background: #C31A1F;
+}
+
+.why-listen .icon-play {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.why-listen .icon-play:before {
+  cursor: pointer;
+}
