@@ -253,17 +253,18 @@ body{
     line-height: 3em;
     border-radius: 50%;
     background: #149797;
-    margin: 0 2em;
+    margin: 0 3em;
     display: inline-block;
     color: white;
     position: relative;
 }
+
 .action-plan > li::before {
     content: '';
     position: absolute;
     top: 1.3em;
-    left: -5em;
-    width: 7em;
+    left: -7em;
+    width: 9em;
     height: .2em;
     background: #149797;
     z-index: -1;
@@ -292,3 +293,15 @@ body{
     left: -3px;
 }
     
+
+
+.action-detail .action-header{
+	background: #149797;
+    color: #fff;
+    padding: 5px 20px;
+}
+.action-detail .action-text {
+    background: #fff;
+    color: #666;
+    padding: 15px 20px;
+}
