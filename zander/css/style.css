@@ -144,7 +144,9 @@ body{
 	color: #ba2626;
 	font-weight: 700;
 }
-
+.z-index-0{
+	z-index: 0;
+}
 .z-story{
 	text-align: center;
 }
@@ -218,3 +220,75 @@ body{
 .why-listen .icon-play:before {
   cursor: pointer;
 }
+
+
+/*ACTION PROGRAM*/
+.z-section.action-program{
+	background-color: #5AC3BC;
+}
+.action-program .z-sub-heading{
+	text-align: center;
+	color: #FFF;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	
+}
+.action-program .z-heading{
+	color: #363636;
+	text-align: center;
+	font-size: 24px;
+}
+
+/*lines connection */
+.action-plan{
+	text-align: center;
+	padding: 0;
+	margin: 20px 0 60px;
+}
+.action-plan > li {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 50%;
+    background: #149797;
+    margin: 0 2em;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+.action-plan > li::before {
+    content: '';
+    position: absolute;
+    top: 1.3em;
+    left: -5em;
+    width: 7em;
+    height: .2em;
+    background: #149797;
+    z-index: -1;
+}
+.action-plan > li:first-child::before {
+  display: none;
+}
+
+.action-plan .active {
+  background: #149797;
+}
+
+.action-plan .active ~ li {
+	color: #afafaf;
+  background: #fff;
+}
+
+.action-plan .active ~ li::before {
+  background: #fff;
+}
+
+.action-plan li .z-text {
+    position: absolute;
+    font-size: 13px;
+    width: 50px;
+    left: -3px;
+}
+    
