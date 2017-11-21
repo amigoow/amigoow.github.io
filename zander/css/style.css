@@ -467,3 +467,69 @@ body{
   display: inline-block;
   float: none;
 }
+
+.z-section.z-guarantee{
+  background-color: #70d2cb;
+      margin: 0;
+}
+.z-guarantee .z-heading{
+  color: #FFF;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 29px;
+  letter-spacing: 1px;
+}
+.z-guarantee .z-text{
+  color: #FFF;
+  text-align: left; 
+}
+.that-life{
+  margin: 0;
+  counter-reset: z-counter;
+}
+.that-life .red-boxes > .z-text {
+  background-color: #cd4545;
+  margin: 15px 0;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 50px;
+  
+}
+.that-life .red-boxes > .z-text:before {
+  content: counter(z-counter);
+  counter-increment: z-counter;
+  position: absolute;
+  left: 6%;
+  top: 51%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+}
+.that-life .z-heading{
+  text-align: center;
+  color: #111;
+}
+.that-life .z-sub-heading{
+  color: #CD4545;  
+  text-align: center;
+  
+}
+.z-section.z-percentages{
+  background-color: #60779B;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin: 0;
+   
+}
+
+.z-section.z-percentages .value {
+  font-size: 50px;
+  color: #d9cc3c;
+}
+.z-section.z-percentages .z-text {
+  font-size: 16px;
+  padding: 0 20px;
+  color: #FFF;
+}
