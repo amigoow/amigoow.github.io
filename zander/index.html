@@ -16,7 +16,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Avenir:500,700,800" rel="stylesheet">
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
-	
+	<link href="js/countdown/flipclock.css" rel="stylesheet">
+
+    
 	
   </head>
   <body>
@@ -69,7 +71,6 @@
 			</div>	
 		</div><!-- HEADER BG -->
 
-		<h1>Temporary changes</h1>
 	
 		<!-- WHY YOU HERE -->
 		<div class="z-section why-here row">
@@ -229,6 +230,120 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+
+<!-- SOHAIL REVISION STARTS FROM HERE -->
+
+
+<div class="z-section what-you-expect row">
+			<div class="col-md-offset-2 col-md-8">
+				<h2 class="z-heading what-expect">
+					What you can expect from this course
+				</h2>
+					<h3 class="z-sub-heading learn-how z-story">
+							You’ll Learn How To:
+						</h3>
+
+				<div class="row learn-list-wrapper">
+						<div class="col-md-6">
+							<div class="left-list learn-how">
+								<ul class="learning-plan-left">
+						  <li>
+						  	1
+						  	<div class="z-text">Build your confidence and self-worth, so you can be the victor of your life, rather than a victim of circumstance.</div>
+						  	
+						  </li>
+						  <li>2
+							<div class="z-text">Overcome the negative thought patterns and limiting beliefs that are preventing you from moving forward now.</div>
+						  </li>
+						  <li>3
+							<div class="z-text">Get clear and focused on your true life purpose and mission.</div>
+						  </li>
+						  <li class="active">4
+							<div class="z-text">Understand the paradigms that bring you joy and fulfillment.</div>
+						  </li>
+						  <li>5
+							<div class="z-text">Discover the ideal vision of your life, so you can stop letting the world dictate it for you.</div>
+						  </li>
+						  
+						  
+						</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="right-list learn-how">
+								<ul class="learning-plan-right">
+						  <li>
+						  	6
+						  	<div class="z-text">Define goals and action steps that align with your ideal life.</div>
+						  	
+						  </li>
+						  <li>7
+							<div class="z-text">Ensure you stick with (and obtain!) ANY goal you set -- even if it seems CRAZY at first.</div>
+						  </li>
+						  <li>8
+							<div class="z-text">Attain the skills to keep you on track, even when things get tough.</div>
+						  </li>
+						  <li class="active">9
+							<div class="z-text">Overcome your fears and social and cultural programming, so you can become the person you truly want to be along the way.</div>
+						  </li>
+						  <li>10
+							<div class="z-text">Turn all of these skills into habits, so that you can sustain this new trajectory to places you never thought possible.</div>
+						  </li>
+						  
+						  
+						</ul>
+							</div>
+							
+						</div>
+					</div>
+				
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+
+<!-- SIGNUP DIV STARTS FROM HERE -->
+
+
+	<div class="z-section countdown-background row">
+			<div class="col-md-offset-2 col-md-8">
+				<h2 class="z-heading signup-heading">
+					Sign up NOW 
+				</h2>
+
+				<div class="content-wrapper">
+
+							
+							<div class="time-remaining z-sub-heading z-time">
+								<div class="message"></div>
+								<div class="clock"></div>
+
+							</div>
+						
+
+
+							
+						</div>
+
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+
+
+
+<!-- SIGNUP DIV ENDS HERE -->
+
+
+
+
+
+
+<!-- SOHAIL REVISION ENDS HERE -->
+
+
 		<!--<div class="z-section row">
 			<div class="col-md-offset-2 col-md-8">
 				<div class="row">
@@ -352,5 +467,21 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
+<script type="text/javascript" src="js/countdown/flipclock.min.js">
+
+    </script>
+
+
   </body>
 </html>
+	<script type="text/javascript">
+		var clock;
+		
+		$(document).ready(function() {
+			
+			clock = $('.clock').FlipClock({
+		        clockFace: 'MinuteCounter'
+		    });
+		});
+	</script>

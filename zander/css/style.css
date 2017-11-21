@@ -305,3 +305,26 @@ body{
     color: #666;
     padding: 15px 20px;
 }
+
+.what-you-expect{
+  color: #eeeeee;
+  background: #be3232;
+}
+
+
+.countdown-background{
+  background-image: url("../image/countdown.png");
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+    height: 70vh;
+}
+.z-time{
+  background-image: url("../image/time-remaining.png");
+    background-position: center;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    height: 20vh;
+
+
+}
