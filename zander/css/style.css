@@ -448,7 +448,9 @@ body{
 }
 .z-section.why-created-people{
   background-color: #E4E5E7;  
-  padding: 60px 0px 80px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin: 0;
 }
 
 
