@@ -733,3 +733,24 @@ background: #e0f6f4;
 .money-back{
   padding: 20px;
 }
+.hands-on{
+
+  background: #858585;
+     height: 126px;
+    padding: 30px;
+}
+
+.additional-week{
+  background: #a8a8a8;
+      height: 126px;
+    padding: 30px;
+
+
+}
+
+.flexible{
+
+  background: #c7c7c7;
+    height: 126px;
+    padding: 30px;
+}
