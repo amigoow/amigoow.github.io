@@ -725,3 +725,11 @@ background: #e0f6f4;
 .offer-price-wrapper .col-md-6:first-child{
   border-right: 1px solid white;
 }
+.btn-default{
+  margin-top: 55px;
+  color: #70d3cd;
+  width: 250px; 
+}
+.money-back{
+  padding: 20px;
+}
