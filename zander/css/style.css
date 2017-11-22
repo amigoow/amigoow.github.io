@@ -690,3 +690,38 @@ body{
   padding: 0 20px;
   color: #FFF;
 }
+
+/*2nd revision*/
+
+
+.z-section.z-get-it{
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  margin: 0;
+   
+}
+
+.z-slider{
+background: #e0f6f4;
+  
+}
+
+.we-have-already{
+  background: #60779b;
+  color: #ffffff;
+}
+
+
+.offer-price{
+  background-image: url(../image/offer.png);
+  height: 90px;
+  background-position: center top;
+  background-size: 25%;
+  background-repeat: no-repeat;
+}
+
+
+.offer-price-wrapper .col-md-6:first-child{
+  border-right: 1px solid white;
+}
