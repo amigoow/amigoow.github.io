@@ -197,7 +197,7 @@ body{
 .header-box .video {
   position: relative;
   
-  height: 144px;
+  /*height: 144px;*/
   background: #73AF96;
   
 }
@@ -783,3 +783,4 @@ background: #b43d3d;
   height: 375px;
   color: #ffffff;
 }
+

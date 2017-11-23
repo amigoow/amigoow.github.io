@@ -38,7 +38,7 @@
     transition: all 0.4s;
 }
 #quote-carousel .carousel-indicators .active {
-    background: #333333;
+    background: transparent;
     width: 128px;
     height: 128px;
     border-radius: 100px;
