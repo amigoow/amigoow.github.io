@@ -784,3 +784,17 @@ background: #b43d3d;
   color: #ffffff;
 }
 
+.why-list li{
+
+  list-style-image: url('../image/checkmark.png');
+  
+}
+
+.arrow-list li{
+
+  list-style-image: url('../image/arrow.png');
+  padding: 5px;
+  color: #ba2626;
+}
+
+
