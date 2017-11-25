@@ -713,15 +713,6 @@ background: #e0f6f4;
 }
 
 
-.offer-price{
-  background-image: url(../image/offer.png);
-  height: 90px;
-  background-position: center top;
-  background-size: 25%;
-  background-repeat: no-repeat;
-}
-
-
 .offer-price-wrapper .col-md-6:first-child{
   border-right: 1px solid white;
 }
@@ -780,8 +771,7 @@ background: #b43d3d;
 .footer{
 
   background: #003737;
-  height: 375px;
-  color: #ffffff;
+   color: #ffffff;
 }
 
 .why-list li{
@@ -797,4 +787,35 @@ background: #b43d3d;
   color: #ba2626;
 }
 
+.footer-line {
+  margin-top: 55px; 
+  border-top: 1px solid #295151;
+}
 
+.z-terms{
+  color: #acacac;
+  font-size:12px;
+  padding-top: 30px;
+  padding-bottom:90px; 
+}
+.three-col-first{
+  color: #ffffff;
+}
+.heading {
+    position: relative;  
+    display: inline-block;
+}
+.heading:before {
+    background-color: #ffffff;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: rotate(-10deg);
+    
+}
+.offer-heading{
+  font-weight: 800px;
+}
