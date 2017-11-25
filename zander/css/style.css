@@ -172,7 +172,7 @@ body{
 
 }
 .header-box{
-	margin-top: 80px;
+	margin-top: 40px;
 	background: rgba(21,111,113 , 0.75);
 	padding: 30px;
 	color: #fff;
@@ -282,7 +282,7 @@ body{
     padding: 10px 0;
     border-top: 1px solid #d9cc3c;
     border-bottom: 1px solid #d9cc3c;
-    padding-bottom: 0;
+    padding-bottom: 15px;
 }
 
 .why-listen.z-section{
@@ -291,21 +291,24 @@ body{
 }
 .why-listen h2{
 	color: #ba2626;
-	font-weight: 700;
+	font-weight: 800;
 }
 .z-index-0{
 	z-index: 0;
 }
 .what-you-expect .learn-how.z-story{
 	text-align: center;
-  
-    margin: 20px 0 40px;
+      margin: 20px 0 40px;
+    font-size: 20px;
+    font-weight: 200;
+    
 }
 .what-you-expect .learn-how li{
   color: #D9CB3B;
 }
 .what-you-expect .learn-how li > .z-text{
   color: #FFF;
+  font-weight: 200;
   
 }
 .learn-list-wrapper .col-md-6:first-child{
@@ -332,13 +335,21 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+  width: 50px;
+}
+.z-icon-wrapper .content-wrapper .z-icon-bg .icon-1{
+  top: 30%;
+  left: 70%;
+  width: 60px;  
+}
+.z-icon-wrapper .content-wrapper .z-icon-bg .icon-3{
+  width: 62px;   
 }
 
-.z-icon-wrapper .z-caption{
-	margin-top: 30px;
-	text-align: center;
-}
 
+.why-list{
+  padding: 0;
+}
 .why-listen .video {
   position: relative;
   
@@ -350,7 +361,9 @@ body{
 .why-listen .video img {
   opacity: .65;
 }
-
+.why-listen .z-text{
+  color: #666666;
+}
 .why-listen .play {
   height: 30px;
   width: 40px;
@@ -381,7 +394,11 @@ body{
 .why-listen .icon-play:before {
   cursor: pointer;
 }
-
+.z-icon-wrapper .z-caption{
+  margin-top: 30px;
+  text-align: center;
+  color: #353535;
+}
 
 /*ACTION PROGRAM*/
 .z-section.action-program{
@@ -517,6 +534,17 @@ body{
   margin: 40px 0;
   text-align: center;
 }
+.countdown-background .signup-heading {
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 38px;
+}
+.countdown-background .bottom-text {
+  font-weight: 100;
+}
+.countdown-background .bottom-text strong {
+  font-weight: 800;
+}
 
 .flip-clock-divider .flip-clock-label{
     color: #fff;
@@ -574,7 +602,8 @@ body{
 .listen-2-people .z-heading{
   color: #4B6186;  
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
     
@@ -598,17 +627,38 @@ body{
 .z-section.why-created-people{
   background-color: #E4E5E7;  
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   margin: 0;
+      
 }
 
 
 .why-created-people .z-heading{
-  font-size: 34px;
+  font-size: 24px;
   margin-bottom: 25px;
+  color: #60779B;
 }
 .why-created-people .z-text{
-  font-size: 20px;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.why-created-people .z-text strong {
+  font-weight: 800;
+}
+.why-created-people .zand-why-bg{
+  background-image: url(../image/zand-bg-why.png);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  background-position: bottom;
+  
+}
+
+.why-created-people .img-wrapper{
+  margin-top: 100px;
 }
 
 .v-center{
@@ -623,14 +673,18 @@ body{
 }
 .z-guarantee .z-heading{
   color: #FFF;
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 29px;
-  letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 .z-guarantee .z-text{
   color: #FFF;
   text-align: left; 
+  font-size: 13px;
 }
 .that-life{
   margin: 0;
@@ -769,14 +823,18 @@ background: #b43d3d;
 }
 
 .footer{
-
   background: #003737;
-   color: #ffffff;
+  color: #ffffff;
 }
 
 .why-list li{
-
-  list-style-image: url('../image/checkmark.png');
+  background: url(../image/checkmark.png) no-repeat left top;
+  padding: 4px 0px 5px 45px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+  
+  /*list-style-image: url('../image/checkmark.png');*/
   
 }
 
