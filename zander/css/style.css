@@ -282,7 +282,7 @@ body{
     padding: 10px 0;
     border-top: 1px solid #d9cc3c;
     border-bottom: 1px solid #d9cc3c;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .why-listen.z-section{
@@ -292,6 +292,8 @@ body{
 .why-listen h2{
 	color: #ba2626;
 	font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .z-index-0{
 	z-index: 0;
@@ -403,19 +405,22 @@ body{
 /*ACTION PROGRAM*/
 .z-section.action-program{
 	background-color: #5AC3BC;
+  padding: 60px 0;
 }
 .action-program .z-sub-heading{
 	text-align: center;
 	color: #FFF;
 	font-size: 12px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	
 }
 .action-program .z-heading{
 	color: #363636;
 	text-align: center;
 	font-size: 24px;
+  font-weight: 500;
+  padding-top: 0;
 }
 
 /*lines connection */
@@ -423,7 +428,9 @@ body{
 	text-align: center;
 	padding: 0;
 	margin: 20px 0 60px;
+  font-weight: 600;
 }
+
 .action-plan > li {
     width: 3em;
     height: 3em;
@@ -436,7 +443,49 @@ body{
     color: white;
     position: relative;
 }
+.action-plan > li > .z-text {
+  color: #149797;  
+}
+.action-plan > li.active > .z-text {
+    
+  font-weight: 500;
+}
 
+
+.what-you-expect .learning-plan {
+  list-style: none;  
+  counter-reset: z-lcounter;
+}
+.what-you-expect .learning-plan li {
+  position: relative;
+  margin-bottom: 20px;
+  color: #EEE;
+  letter-spacing: 1px;
+}
+.what-you-expect .learning-plan li .z-text{
+  color: #EEE;
+}
+.what-you-expect .learning-plan li:before {
+  content: counter(z-lcounter);
+  counter-increment: z-lcounter;
+  position: absolute;
+  top: 3px;
+  bottom: 0px;
+  background-color: #d9cb3b;
+  color: #be3232;
+  width: 30px;
+  height: 30px;
+  left: -40px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+}
+.row.learn-list-wrapper > div:first-child {
+    padding-right: 55px;
+}
+.row.learn-list-wrapper > div:last-child {
+    padding-left: 55px;
+}
 .action-plan > li::before {
     content: '';
     position: absolute;
@@ -599,12 +648,7 @@ body{
   transform: translate(-50%, -50%);
 }
 
-.listen-2-people .z-heading{
-  color: #4B6186;  
-  font-size: 30px;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
+
 
     
 .listen-2-people .people-divider{
@@ -616,10 +660,9 @@ body{
 
 .listen-2-people .z-heading{
   color: #4B6186;  
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  
+      font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 .listen-2-people .z-text{
   text-align: center; 
@@ -673,31 +716,35 @@ body{
 }
 .z-guarantee .z-heading{
   color: #FFF;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 28px;
-    letter-spacing: 1px;
-    font-weight: 800;
-    margin-bottom: 0;
-    padding-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
 }
 .z-guarantee .z-text{
+  font-size: 16px;
+  text-align: center;
+  margin-left: 20px;
   color: #FFF;
-  text-align: left; 
-  font-size: 13px;
 }
 .that-life{
   margin: 0;
   counter-reset: z-counter;
+  padding: 40px 0 40px;
 }
 .that-life .red-boxes > .z-text {
   background-color: #cd4545;
   margin: 15px 0;
   padding: 20px 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 60px;
+  padding-right: 15px;
   
 }
 .that-life .red-boxes > .z-text:before {
@@ -736,13 +783,15 @@ body{
 }
 
 .z-section.z-percentages .value {
-  font-size: 50px;
-  color: #d9cc3c;
+      font-size: 50px;
+    color: #d9cc3c;
+    font-family: 'Avenir';
 }
 .z-section.z-percentages .z-text {
   font-size: 16px;
   padding: 0 20px;
   color: #FFF;
+      font-weight: 100;
 }
 
 /*2nd revision*/
@@ -775,8 +824,10 @@ background: #e0f6f4;
   color: #70d3cd;
   width: 250px; 
 }
-.money-back{
-  padding: 20px;
+.money-back {
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 .hands-on{
 
@@ -825,6 +876,7 @@ background: #b43d3d;
 .footer{
   background: #003737;
   color: #ffffff;
+  padding-top: 100px;
 }
 
 .why-list li{
@@ -866,14 +918,158 @@ background: #b43d3d;
 .heading:before {
     background-color: #ffffff;
     content: "";
-    height: 2px;
-    left: 0;
+    height: 4px;
+    left: -5px;
     position: absolute;
-    right: 0;
-    top: 50%;
-    transform: rotate(-10deg);
+    right: 16px;
+    top: 42%;
+    transform: rotate(-12deg);
+    width: 115px;
     
 }
-.offer-heading{
-  font-weight: 800px;
+
+.z-get-it .get-it-heading{
+  color: #4B6186;  
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.z-get-it .content-wrapper{
+      padding: 0px 4%;
+
+}
+.z-get-it-list li{
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.z-get-it-after{
+
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 20px;
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 10px;
+
+}
+
+.blue-color{
+  color: #21aaaa;
+}
+
+.we-have-already .offer-heading{
+
+  font-size: 34px;
+    margin: 40px 0;
+  
+}
+
+.we-have-already .limited-time
+{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.z-offer-price {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.z-slider .carousel-inner .item h2{
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #363636;
+}
+.z-slider .carousel-inner .item p{
+  color: #666666;
+}
+    
+
+.z-slider .carousel-inner .item small{
+  color: #70d3cd;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.offer-price-wrapper {
+  font-family: 'Avenir';
+}
+.offer-price-wrapper .left-offer{
+  text-align: right;
+  padding-right: 20px;
+  line-height: 1.9;
+  font-weight: 300;
+  font-size: 16px;
+}
+.offer-price-wrapper .right-offer{
+text-align: left;
+padding-left: 20px;
+    font-weight: 300;
+}
+.offer-price-wrapper .right-offer .text-1{
+  font-size: 16px;
+}
+
+.offer-price-wrapper .right-offer .text-2{
+  display: block;
+}
+.offer-price-wrapper .right-offer strong{
+  font-weight: 800;
+}
+.offer-price-wrapper .left-offer .text-2 {
+      background: #70d3cd;
+    padding: 5px 7px;
+    font-weight: 900;
+}
+.offer-price-wrapper .right-offer .text-3,
+.offer-price-wrapper .right-offer .text-2{
+  font-size: 14px;
+}
+
+.enroll-button .btn-default{
+    margin-top: 55px;
+    color: #70d3cd;
+    width: 200px;
+    padding: 10px;
+    font-weight: 100;
+    font-family: 'Avenir';
+    letter-spacing: 1px;
+}
+
+.three-col-first .z-heading{
+  font-size: 17px;
+      text-transform: uppercase;
+      font-weight: 200;
+  
+}
+
+.footer-list a{
+  text-decoration: none;
+  color: #acacac;
+
+}
+.z-contact{
+  padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.z-stay{
+  padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.font-awesome-icon i{
+  margin-right: 15px;
+  font-size: 20px;
 }
