@@ -1116,6 +1116,33 @@ font-size: 24px;
   height: 500px!important;
 }
 
+.v-center{
+  padding: 25px;
+  margin-left: 20px;
+}
 
+.action-program .z-heading{
+  font-size: 20px;
+}
 
+.action-plan > li{
+  margin: 23px;
+}
 
+.action-plan{
+  font-size: 12px;
+}
+.action-detail .action-text{
+font-size: 14px;
+}
+.z-time{
+  background-size: 45%;
+}
+.z-text .bottom-text{
+  font-size: 25px;
+}
+.listen-2-people .z-heading{
+  font-size: 25px;
+}
+
+}
