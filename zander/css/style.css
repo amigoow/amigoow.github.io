@@ -695,7 +695,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 375px;
   background-position: bottom;
   
 }
@@ -1076,3 +1076,45 @@ padding-left: 20px;
 .carousel-indicators{
   width: 64%;
 }
+
+
+
+/*MEDIA QURIES*/
+@media all and (max-width: 580px){
+
+.header-box .z-heading
+{
+
+font-size: 24px;
+
+
+}
+.header-box .z-text{
+
+  font-size: 15px;
+}
+.header-background{
+
+  height: auto;
+}
+
+.header-box{
+  margin-bottom: 40px; 
+}
+.z-text{
+  font-size: 18px;
+
+}
+.z-icon-wrapper .z-caption
+{
+  font-size: 12px;
+}
+
+
+
+
+}
+
+
+
+
