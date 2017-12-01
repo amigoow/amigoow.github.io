@@ -1145,4 +1145,44 @@ font-size: 14px;
   font-size: 25px;
 }
 
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+#program-carousel.carousel {
+  margin-bottom: 60px;
 }
+/* Since positioning the image, we need to help out the caption */
+#program-carousel .carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+#program-carousel.carousel .item {
+  height: 400px;
+  background-color:#bbb;
+}
+#program-carousel.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+#program-carousel .carousel-buttons {
+  width: 100%;
+  color:#666;
+  bottom:1px;
+}
+#program-carousel .carousel-buttons > div {
+  padding:10px;
+  border:1px solid #666;
+}
+#program-carousel .carousel-buttons a {
+  color:#666;
+  display:block;
+  line-height:30px;
+}
+
+
