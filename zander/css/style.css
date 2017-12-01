@@ -689,13 +689,27 @@ body{
 .why-created-people .z-text strong {
   font-weight: 800;
 }
-.why-created-people .zand-why-bg{
-  background-image: url(../image/zand-bg-why.png);
+.why-created-people .zand-why-br-mobile{
+
+
+ /* background-image: url(../image/zand-bg-why.png);*/
+ background-image: url(../image/flex-plan1.png);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 375px;
+  height: 382px;
+  background-position: bottom;
+  
+}
+.why-created-people .zand-why-bg{
+  background-image: url(../image/zand-bg-why.png);
+  /*background-image: url(../image/flex-plan1.png);*/
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 383px;
   background-position: bottom;
   
 }
@@ -1145,6 +1159,74 @@ font-size: 14px;
   font-size: 25px;
 }
 
+.why-created-people .z-heading{
+  font-size: 30px;
+}
+.why-created-people .z-text{
+  font-size: 20px;
+}
+.countdown-background .bottom-text{
+  font-size: 26px;
+}
+.why-created-people .zand-why-br-mobile{
+  height: 744px;
+}
+
+.z-guarantee .z-text {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+.gurantee-money{
+  font-size: 28px;
+}
+
+.that-life .z-sub-heading{
+  font-size: 30px;
+    font-weight: 800;
+}
+.get-it-heading{
+  font-size: 50px;
+}
+
+#quote-carousel .carousel-control.right{
+  right:-30px;
+}
+#quote-carousel .carousel-control.left{
+  left: -25px;
+}
+
+.we-have-already .offer-heading{
+  font-size: 22px;
+}
+.we-have-already .limited-time{
+
+
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+
+.z-contact{
+  text-align: center;
+  margin-top: 65px;
+}
+.z-email{
+  text-align: center;
+}
+
+.z-stay {
+    text-align: center;
+    margin-top: 38px;
+  }
+.font-awesome-icon{
+  text-align: center;
+}
+
+.z-terms{
+  margin-left: 14px;
+}
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
