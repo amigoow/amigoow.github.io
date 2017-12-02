@@ -283,6 +283,7 @@ body{
     border-top: 1px solid #d9cc3c;
     border-bottom: 1px solid #d9cc3c;
     padding-bottom: 5px;
+    clear: both;
 }
 
 .why-listen.z-section{
@@ -712,7 +713,7 @@ body{
   /*background-image: url(../image/flex-plan1.png);*/
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 383px;
   background-position: bottom;
@@ -1304,4 +1305,76 @@ font-size: 14px;
 .z-section.countdown-background,
 .z-section.what-you-expect {
   margin: 0;
+}
+
+#program-carousel .carousel-inner{
+  padding: 0px 25%;
+}
+@media all and (max-width: 2560px){
+  #program-carousel .carousel-inner{
+    padding: 0px 30%;
+  } 
+}
+@media all and (max-width: 1800px){
+  #program-carousel .carousel-inner{
+    padding: 0px 25%;
+  } 
+}
+@media all and (max-width: 1800px){
+  #program-carousel .carousel-inner{
+    padding: 0px 25%;
+  } 
+}
+@media all and (max-width: 1500px){
+  #program-carousel .carousel-inner{
+    padding: 0px 20%;
+  } 
+}
+@media all and (max-width: 1366px){
+  #program-carousel .carousel-inner{
+    padding: 0px 15%;
+  } 
+}
+@media all and (max-width: 1280px){
+  #program-carousel .carousel-inner{
+    padding: 0px 10%;
+  } 
+}
+
+@media all and (max-width: 1000px){
+  #program-carousel .carousel-inner{
+    padding: 0px 5%;
+  } 
+}
+
+@media all and (max-width: 768px){
+  .action-plan > li::before {
+    top: 1.3em;
+    left: -5em;
+    width: 5em;
+  }
+  .action-plan > li{
+        margin: 0 2em;
+  }
+}
+
+@media all and (max-width: 460px){
+  .action-plan > li::before {
+    top: 1.3em;
+    left: -3em;
+    width: 3em;
+}
+  .action-plan > li {
+    margin: 0 1em;
+  }
+}
+@media all and (max-width: 380px){
+  .action-plan > li::before {
+    
+    left: -1em;
+    width: 1em;
+  }
+  .action-plan > li {
+    margin: 0 0.2em;
+  }
 }
