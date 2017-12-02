@@ -198,9 +198,9 @@
                 </h2>
                 <div class="row">
                     <div class="col-md-12 col-xs-12 z-index-0">
-                        <div id="program-carousel" class="carousel slide">
+                        <div id="program-carousel" class="carousel slide" data-interval="false"> 
 							<ul class="action-plan ">
-							    <li data-target="#program-carousel" data-slide-to="0" href="#">
+							    <li data-target="#program-carousel" data-slide-to="0" href="#" class="active">
 							        1
 							        <div class="z-text">INTRO</div>
 
@@ -213,7 +213,7 @@
 							        3
 							        <div class="z-text">WEEK 2</div>
 							    </li>
-							    <li data-target="#program-carousel" data-slide-to="3" href="#" class="active">
+							    <li data-target="#program-carousel" data-slide-to="3" href="#">
 							        4
 							        <div class="z-text">WEEK 3</div>
 							    </li>
@@ -223,7 +223,7 @@
 							    </li>
 							    <li data-target="#program-carousel" data-slide-to="5" href="#">
 							        6
-							        <div class="z-text">WEEK 5</div>
+							        <div class="z-text">BONUS</div>
 							    </li>
 
 							</ul>
@@ -249,20 +249,112 @@
 							      <div class="row action-detail">
       								    <div class="col-md-offset-1 col-md-10 col-xs-12 ">
       								        <div class="z-text action-header">
-      								           2 How to get the most from Zander’s program
+      								           The Foundation: your mindset, beliefs and habitual thought patterns
       								        </div>
 
       								    </div>
       								    <div class="col-md-offset-1 col-md-10 col-xs-12">
       								        <div class="z-text action-text">
-      								            Understand how you learn, so you can grow and become the person you want and need to become to achieve your dreams… faster!
+      								            <ul>
+      								            	<li>How to take control of your own life</li>
+      								            	<li>Becoming the victor rather than the victim</li>
+      								            	<li>Overcoming your negative thoughts and habits</li>
+      								            </ul>
       								        </div>
       								    </div>
       								    </ul>
       								</div>
 							    </div>
+							    <div class="item" data-step="3">
+							      <div class="row action-detail">
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12 ">
+      								        <div class="z-text action-header">
+      								           Discovery: discovering your purpose, your mission and your gifts
+      								        </div>
+
+      								    </div>
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      								        <div class="z-text action-text">
+      								            <ul>
+      								            	<li>Discover your life purpose</li>
+      								            	<li>Get clear on what makes you tick and what drives you to align your life with it</li>
+      								            	<li>Understand your gifts and how to leverage them</li>
+      								            </ul>
+      								        </div>
+      								    </div>
+      								    </ul>
+      								</div>
+							    </div>
+							    <div class="item" data-step="4">
+							      <div class="row action-detail">
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12 ">
+      								        <div class="z-text action-header">
+      								           Definition: defining your ideal life and getting clarity around your goals
+      								        </div>
+
+      								    </div>
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      								        <div class="z-text action-text">
+      								            <ul>
+      								            	<li>Define your ideal life and direction to move towards</li>
+      								            	<li>Aligning your purpose and passions with your vision</li>
+      								            	<li>Get clarity around goals that truly connect and inspire you</li>
+      								            </ul>
+      								        </div>
+      								    </div>
+      								    </ul>
+      								</div>
+							    </div>
+							    <div class="item" data-step="5">
+							      <div class="row action-detail">
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12 ">
+      								        <div class="z-text action-header">
+      								           Direction: Focusing in to overcome fear and create intentional action toward your dream
+      								        </div>
+
+      								    </div>
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      								        <div class="z-text action-text">
+      								            <ul>
+      								            	<li>Overcoming your fears and social programing</li>
+      								            	<li>Re-programing your subconscious to launch you forward</li>
+      								            	<li>Creating a focuses action plan to move you forward fast</li>
+      								            </ul>
+      								        </div>
+      								    </div>
+      								    </ul>
+      								</div>
+							    </div>
+							    <div class="item" data-step="6">
+							      <div class="row action-detail">
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12 ">
+      								        <div class="z-text action-header">
+      								           Sustained success and growth
+      								        </div>
+
+      								    </div>
+      								    <div class="col-md-offset-1 col-md-10 col-xs-12">
+      								        <div class="z-text action-text">
+      								            <ul>
+      								            	<li>The habits you need to build to succeed</li>
+      								            	<li>How to create a supportive environment the drives you forward (rather than holding you back)</li>
+      								            </ul>
+      								        </div>
+      								    </div>
+      								    </ul>
+      								</div>
+							    </div>
+							    
 							  </div>
-							  
+								<!-- <a class="left carousel-control" href="#program-carousel" role="button" data-slide="prev">
+							      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							      <span class="sr-only">Previous</span>
+							    </a>
+							    <a class="right carousel-control" href="#program-carousel" role="button" data-slide="next">
+							      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							      <span class="sr-only">Next</span>
+							    </a>
+							   -->
 							</div>
 							
                         </div>
@@ -1274,7 +1366,10 @@
 		    fullscreen: true,
 		    
         });
-        
+        $(".action-plan li").click(function(){
+        	$(".action-plan li").removeClass("active");
+        	$(this).addClass("active");
+        });
 
     </script>
 </body>
