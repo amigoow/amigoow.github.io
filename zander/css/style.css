@@ -1296,3 +1296,11 @@ font-size: 14px;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.z-section.we-have-already,
+.z-section.z-slider,
+.z-section.listen-2-people,
+.z-section.countdown-background,
+.z-section.what-you-expect {
+  margin: 0;
+}
