@@ -1111,7 +1111,8 @@ padding-left: 20px;
     left: -35px;
   }
   .carousel-indicators{
-    width: 66% !important;
+    width: 108% !important;
+    left: 25%;
   }
 .z-slider #quote-carousel{
   margin-top: 58px;
@@ -1175,7 +1176,7 @@ font-size: 24px;
 }
 .z-icon-wrapper .z-caption
 {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -1211,14 +1212,15 @@ font-size: 14px;
   font-size: 25px;
 }
 .listen-2-people .z-heading{
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .why-created-people .z-heading{
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 35px;
 }
 .why-created-people .z-text{
-  font-size: 20px;
+  font-size: 16px;
 }
 .countdown-background .bottom-text{
   font-size: 18px;
@@ -1229,7 +1231,7 @@ font-size: 14px;
 
 .z-guarantee .z-text {
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
 .gurantee-money{
