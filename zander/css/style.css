@@ -1100,10 +1100,25 @@ padding-left: 20px;
   width: 64%;
 }
 
+.header-box .video img {     margin: 0 auto;  }
+
+.header-box .video { background-color: initial; }
+.why-listen .video {    background: initial; }
+.why-listen .video img { margin: 0 auto; }
+
+
 
 
 /*MEDIA QURIES*/
 @media all and (max-width: 580px){
+
+  .header-box .video img {     margin: 0 auto;  }
+
+.header-box .video { background-color: initial; }
+.why-listen .video {    background: initial; }
+.why-listen .video img { margin: 0 auto; }
+
+
   .z-slider #quote-carousel .carousel-control.right{
     right: -25px;
   }
@@ -1216,11 +1231,12 @@ font-size: 14px;
 }
 
 .why-created-people .z-heading{
-  font-size: 20px;
-  margin-top: 35px;
+  font-size: 21px;
+  margin-top: -30px;
 }
 .why-created-people .z-text{
   font-size: 16px;
+  margin-bottom: 30px;
 }
 .countdown-background .bottom-text{
   font-size: 18px;
