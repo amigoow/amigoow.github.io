@@ -1447,3 +1447,52 @@ font-size: 14px;
     margin: 0 0.2em;
   }
 }
+
+
+@media all and (max-width: 320px){
+.header-box .z-text{
+  font-size: 10px;
+}
+
+.header-box .z-heading{
+  font-size: 14px;
+}
+.header-box{
+  padding: 25px;
+}
+.z-text .z-caption{
+  font-size: 9px;
+}
+.action-plan li .z-text{
+  font-size: 8px;
+}
+.z-heading.what-expect-heading{
+  font-size: 23px;
+}
+.flip-clock-wrapper{
+  width: 110%;
+}
+.listen-2-people .z-heading{
+  font-size: 15px;
+}
+.z-guarantee .z-text{
+  font-size: 10px;
+}
+.that-life .z-sub-heading{
+  font-size: 23px;
+}
+/*.listen-2-people .z-heading{
+  font-size: 35px;
+}*/
+.carousel-indicators{
+  width: 141% !important;
+  left: 6%
+}
+.z-slider #quote-carousel .carousel-indicators{
+  top: 0%;
+}
+.three-col-first .z-heading
+{
+  font-size: 9px;
+}
+}
