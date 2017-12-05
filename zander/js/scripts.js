@@ -4,6 +4,8 @@
 //   $('.video').replaceWith(video);
 // });
 
+alert("Hello Myraa Jee!! <3 ");
+
 var totalSteps = 4;
 
 $('#program-carousel').carousel();
