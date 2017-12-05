@@ -1496,3 +1496,41 @@ font-size: 14px;
   font-size: 9px;
 }
 }
+
+@media all and (max-width: 765px){
+.header-background{
+  height: 126vh;
+}
+.z-contact{
+  text-align: center;
+}
+.z-email{
+  text-align: center;
+}
+.z-stay{
+      text-align: center;
+    margin-top: 10px;
+  }
+.font-awesome-icon{
+  text-align: center;
+}
+.v-center
+{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.three-col-first .z-heading{
+  font-size: 15px;
+}
+.z-section.why-created-people{
+  
+  padding-left: 40px;
+}
+.why-created-people .z-text{
+  margin-bottom: 30px;
+}
+.z-terms{
+  padding-left: 60px;
+}
+
+}
