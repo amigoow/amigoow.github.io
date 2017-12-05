@@ -1331,20 +1331,23 @@
         var clock;
 
         $(document).ready(function () {
+        
 
-            clock = $('.clock').FlipClock({
-                clockFace: 'MinuteCounter'
+
+            clock = $('.clock').FlipClock(10*60, {
+                clockFace: 'MinuteCounter',
+                countdown: true
             });
         });
 
         $(".testimonials").iziModal({
             history: false,
-        iframe : true,
-        fullscreen: true,
-        group: 'testimonials',
-        loop: true,
-        headerColor: '#29aeb1'
-        });
+	        iframe : true,
+	        fullscreen: true,
+	        group: 'testimonials',
+	        loop: true,
+	        headerColor: '#29aeb1'
+	    });
         $(".top-header-modal").iziModal({
             history: false,
         iframe : true,
