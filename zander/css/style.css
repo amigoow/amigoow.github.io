@@ -1457,3 +1457,27 @@ ul.arrow-list li:before {
     left: 0;
     margin: 0;
 }
+@media all and (max-width: 768px){
+
+.header-background
+{
+height:45vh;
+}
+.learn-list-wrapper .col-md-6:first-child{
+    border-right: none;
+}
+.z-contact{
+    text-align: center;
+    margin-top: 45px;
+}
+.z-stay{
+    text-align: center;
+    margin-top: 25px;
+}
+.z-email{
+    text-align: center;
+}
+.font-awesome-icon{
+    text-align: center;
+}
+}
