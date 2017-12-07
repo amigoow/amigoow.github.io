@@ -1502,3 +1502,6 @@ height:45vh;
     left: 50px;
     z-index: 1111;
 }
+.zander-listen-video:hover{
+  cursor: pointer;
+}
