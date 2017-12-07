@@ -141,9 +141,12 @@ body {
     transition: background-color 0.5s ease;
     color: white;
 }
-.header-box .play:hover {
+
+
+
+/*.header-box .play:hover {
     background: #C31A1F;
-}
+}*/
 .header-box .icon-play {
     line-height: 30px;
     font-size: 12px;
@@ -1502,6 +1505,12 @@ height:45vh;
     left: 50px;
     z-index: 1111;
 }
+.zander-top-video:hover,
 .zander-listen-video:hover{
   cursor: pointer;
+}
+.zander-listen-video:hover .play,
+.zander-top-video:hover .play{
+    background: #C31A1F;
+    
 }
