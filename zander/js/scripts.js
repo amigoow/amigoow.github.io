@@ -49,5 +49,5 @@ setTimeout(function(){
 	  $(".action-plan li").removeClass("active");
 	  $(this).addClass("active");
 	});
-}, 2000);
+}, 5000);
 
