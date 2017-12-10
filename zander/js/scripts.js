@@ -17,4 +17,35 @@ $('#program-carousel').on('slide.bs.carousel', function (e) {
   $('.progress-bar').css({width: percent + '%'});
   $('.progress-bar').text("Step " + step);
   
-})
+});
+
+var clock;
+
+$(document).ready(function () {
+
+
+
+    clock = $('.clock').FlipClock(10*60, {
+        clockFace: 'MinuteCounter',
+        countdown: true
+    });
+});
+
+$(".testimonials").iziModal({
+    history: false,
+    iframe : true,
+    fullscreen: true,
+    group: 'testimonials',
+    loop: true,
+    headerColor: '#29aeb1'
+});
+$(".top-header-modal").iziModal({
+    history: false,
+iframe : true,
+fullscreen: true,
+
+});
+$(".action-plan li").click(function(){
+  $(".action-plan li").removeClass("active");
+  $(this).addClass("active");
+});
