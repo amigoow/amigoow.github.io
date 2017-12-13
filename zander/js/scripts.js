@@ -4,7 +4,7 @@
 //   $('.video').replaceWith(video);
 // });
 $(window).on('load', function(){
-	debugger;
+
 	var totalSteps = 4;
 
 	$('#program-carousel').carousel();
