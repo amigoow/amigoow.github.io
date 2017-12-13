@@ -3,7 +3,8 @@
 //   video = '<iframe width="100%" height="281" frameborder="0" src="' + $('img').attr('data-video') + '"></iframe>';
 //   $('.video').replaceWith(video);
 // });
-$(window).load(function(){
+$(window).on('load', function(){
+	debugger;
 	var totalSteps = 4;
 
 	$('#program-carousel').carousel();
@@ -48,7 +49,9 @@ $(window).load(function(){
 	  $(".action-plan li").removeClass("active");
 	  $(this).addClass("active");
 	});
-})
+
+});
+
 // setTimeout(function(){
 // 	debugger;
 	
