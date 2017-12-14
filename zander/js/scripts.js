@@ -58,8 +58,8 @@ $(window).on('load', function(){
 
 	        minutes = minutes < 10 ? "0" + minutes : minutes;
 	        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-	        display.textContent = minutes + ":" + seconds;
+			// 9 MINS 47 SECS
+	        display.textContent = minutes + " MINS " + seconds + " SECS";
 
 	        if (--timer < 0) {
 	            timer = duration;
